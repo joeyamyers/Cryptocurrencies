@@ -2,15 +2,14 @@
 
 ## Overview
 ### Purpose
-I have been asked to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
-
+I have been asked to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment. Below is are the steps I took to cluster these crypotcurrencies together.
 
 ## Methodology
 ### Preprocessing Data
 In order to get the cryptocurrency data ready for analysis, several transformations took place. The dataframe was filtered to include only cryptocurrencies that were actively traded and mined along with ones that had a working algorithm. Text features were assigned to dummy variables and the entire dataframe was standardized. Standardizing converts all data to a common format to enable users to process and analyze it.
 
 ### PCA
-After preparing the data for analysis, the dimensions were reduced to three principal components. This process effectively shrinks the dataframe from many columns into three to speed up the machine learning process. Only a very small portion of data (<1%) is lost in this process.
+After preparing the data for analysis, the dimensions were reduced to three principal components. This process effectively shrinks the dataframe from many columns into three to speed up the machine learning process. Only a very small portion of data (<1%) is lost in this process. <br>
 ![](analysis/pca.png)
 
 ### K-Means Algorithm
@@ -33,7 +32,8 @@ Then, I created a table with all tradeable cryptocurrencies and found there to b
 
 Lastly, I created a 2D scatter plot using the total amount of coins mined as the x-axis and the total coin supply as the y-axis. As seen below, there are four clusters. Two of the clusters stand out as only having one cryptocurrency in each cluster.
 
-![](analysis/2dScatter.png) 
+![](analysis/2dScatter.png) <br>
+
 
 ## Tools Used:
 - Python
