@@ -22,7 +22,7 @@ Using 4 clusters, I initialized the K-means algorithm to fit and predict the clu
 ![](analysis/classDf.png)
 
 ### Visualizing Crytpocurrency Results
-I first created a 3D scatter plot with the PCA data and thhe clusters.
+I first created a 3D scatter plot with the PCA data and the clusters.
 
 ![](analysis/3dScatter.png) <br>
 
